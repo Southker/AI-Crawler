@@ -1,8 +1,0 @@
-{
-  "name": "ai-crawler-backend",
-  "version": "1.0.0",
-  "type": "module",
-  "dependencies": {
-    "wappalyzer": "^7.0.3"
-  }
-}
