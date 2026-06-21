@@ -27,13 +27,14 @@ Ensure you have the following installed on your machine:
 ### 🚀 Setup & Execution Instructions
 
 1. **Clone the Repository**
-   ```bash
-   git clone [https://github.com/YOUR_GITHUB_USERNAME/AI-Crawler.git](https://github.com/YOUR_GITHUB_USERNAME/AI-Crawler.git)
+   ```
+   git clone [https://github.com/YOUR_GITHUB_USERNAME/AI-Crawler.git]
    cd AI-Crawler
+   ```
 
 2. **Spin Up the Containers**
    Run the following command in your terminal to initialize the automated build and start the ecosystem:
-   ```bash
+   ```
    sudo docker compose up --build
-
+   ```
 > ⚠️ **Note:** Scanning results and depth may vary significantly depending on the target website's configuration. Security protections (like Cloudflare or Web Application Firewalls) and modern Single Page Application (SPA) architectures (like React or Next.js) may restrict or alter path discovery compared to traditional websites.
