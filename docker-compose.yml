@@ -1,0 +1,29 @@
+version: "3.8"
+
+services:
+  frontend-builder:
+    image: node:18-alpine
+    volumes:
+      - ./ai-crawler-ui:/app
+    working_dir: /app
+    command: sh -c "npm install && npm run build"
+
+  app:
+    build: ./ai-crawler-backend
+    volumes:
+      - ./ai-crawler-ui/build:/app/frontend_build
+    ports:
+      - "8000:8000"
+    depends_on:
+      redis:
+        condition: service_started
+      frontend-builder:
+        condition: service_completed_successfully
+    environment:
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"

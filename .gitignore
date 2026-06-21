@@ -1,0 +1,16 @@
+# Dependency directories
+node_modules/
+/ai-crawler-backend/node_modules/
+/ai-crawler-ui/node_modules/
+
+# Python environment & cache
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Build and local files
+/ai-crawler-ui/build/
+/ai-crawler-backend/frontend_build/
+*.bak
+.env
