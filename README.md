@@ -31,7 +31,7 @@ Ensure you have the following installed on your machine:
    git clone [https://github.com/YOUR_GITHUB_USERNAME/AI-Crawler.git](https://github.com/YOUR_GITHUB_USERNAME/AI-Crawler.git)
    cd AI-Crawler
 
-2. Spin Up the Containers
+2. **Spin Up the Containers**
 Run the following command in your terminal to initialize the automated build and start the ecosystem:
 sudo docker compose up --build
 
