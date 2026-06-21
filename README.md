@@ -28,7 +28,7 @@ Ensure you have the following installed on your machine:
 
 1. **Clone the Repository**
    ```
-   git clone [https://github.com/YOUR_GITHUB_USERNAME/AI-Crawler.git]
+   git clone https://github.com/Southker/AI-Crawler.git
    cd AI-Crawler
    ```
 
