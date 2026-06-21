@@ -37,4 +37,4 @@ Ensure you have the following installed on your machine:
    ```
    sudo docker compose up --build
    ```
-> ⚠️ **Note:** Scanning results and depth may vary significantly depending on the target website's configuration. Security protections (like Cloudflare or Web Application Firewalls) and modern Single Page Application (SPA) architectures (like React or Next.js) may restrict or alter path discovery compared to traditional websites.
+> ⚠️ **Note:** Scanning results and depth may vary significantly depending on the target website's configuration. Security protections (like Cloudflare or Web Application Firewalls) and modern Single Page Application (SPA) architectures (like React or Next.js) may restrict or alter path discovery compared to traditional websites. I am still working onto improving the tool more efficient and accurate. 
