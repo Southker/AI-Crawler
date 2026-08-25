@@ -1,6 +1,6 @@
 # AI-Crawler 🚀
 
-An intelligent, AI-driven web crawler powered by a high-performance **FastAPI (Python)** backend and a responsive **React (Tailwind CSS)** user interface. The entire stack is optimized to run locally via Docker with automated multi-stage builds.
+**AI-Crawler** is an intelligent, high-performance automated scanning and reconnaissance tool designed specifically for **web security researchers and bug bounty hunters**. Powered by a FastAPI (Python) backend and a responsive React (Tailwind CSS) frontend, it maps an absolute target footprint by discovering critical surface assets—including subdomains, JS files, S3 buckets, and hidden directories. The entire stack is optimized for seamless local deployment using multi-stage Docker builds.
 
 ---
 
