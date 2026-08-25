@@ -9,8 +9,6 @@
 This project is configured as a unified service for easy local deployment:
 * **`frontend-builder`**: A temporary Node.js container that installs UI dependencies and generates static optimized production builds.
 * **`app`**: The primary FastAPI backend container that hosts the REST API endpoints and actively serves the compiled frontend static files.
-* **`redis`**: An Alpine-based Redis caching and task queue layer to handle crawling states asynchronously.
-
 ---
 
 ## ⚡ Getting Started
